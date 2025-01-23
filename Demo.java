@@ -3,9 +3,17 @@ public class Demo {
 
 	public static void main(String[] args) {
 	
-		System.out.println("Hello");
-		System.out.println("Welcome");
-		System.out.println("Hyderabad");
+	
+		int num =123;
+		
+		if(num % 2 ==0) {
+			System.out.println("even");
+		}
+		else {
+			System.out.println("odd");
+		}
+		
+	
 	}
 
 }
